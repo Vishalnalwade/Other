@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ledger</title>
+<style>
+div{
+	display:flex;
+}
+form{
+margin-right:20px;
+
+}
+input{
+	height:50px;
+	width:120px;
+
+}
+h1{
+	color:black;
+}
+</style>
+</head>
+<body  style='justify-content:center;width:100%;height:auto;background: url(ledger.jpg)no-repeat;background-size:cover;color:white;background-position:center;justify-content:center;align-items:center;min-height:100vh;'>
+		<h1>Students Ledger</h1>
+		<br>
+		<div>
+		<form action="ServletDisplayData" method="post">
+			<input type="submit" value="Display Data">
+		</form>
+		<br>
+		<form action="ServletDisplayMark" method="get">
+			<input type="submit" value="Display Marks">
+		</form>
+		<br>
+		<form action="ServletDisplayAll" method="get">
+			<input type="submit" value="Display All">
+		</form>
+		</div>
+</body>
+</html>

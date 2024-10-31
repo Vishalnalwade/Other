@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Update Data</title>
+</head>
+    <body style='justify-content:center;width:100%;height:auto;background: url(update.jfif)no-repeat;background-size:cover;color:white;background-position:center;justify-content:center;align-items:center;min-height:100vh;'>
+        
+            <form action='ServletUpdateData' method='post'>
+
+                <h2 style='text-align:center;background-color:powderblue;color:black;'>Update Student Data ..!</h2>
+
+                <label for='rollNumber'>Roll Number : </label>
+                <br>
+                <input type='number' id='rollNumber' name='rollNumber' required autofocus>
+                <br><br>
+                <label for='name'>Student Name : </label>
+                <br>
+                <input type='text' id='name' name='name' required>
+                <br><br>
+                <label for='date'>Date of Birth : </label>
+                <br>
+                <input type='date' id='date' name='date' required>
+                <br><br>
+                <label for='gender'>Gender : </label>
+                <br>
+                <select name='gender' id='gender' required>
+                    <option value='Male'>Male</option>
+                    <option value='Female'>Female</option>
+                    <option value='Other'>Other</option>
+                </select>
+                <br><br><br>
+                <input type='submit' value='Update Data'>
+            </form>
+        </fieldset>
+    </body>
+</html>

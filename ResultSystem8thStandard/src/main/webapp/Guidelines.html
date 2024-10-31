@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<style>
+        /* universal selector */
+        *{
+            margin: 0px;
+            padding: 0;
+        }
+        body{
+            background: url(main.jpg) no-repeat;
+            background-size: cover;
+        } 
+         /* Style for header element */
+        header{
+            margin-top: 20px;
+            margin-bottom: 15px;
+            justify-content: space-between;
+            display: flex;
+            background-color: rgb(255, 242, 127);
+        }
+        /* style for article element inside header element */
+        header article{
+            display: inline;
+        }
+        /* style for heading h1 element inside header element */
+        header h1{
+            display: flex;
+            margin-left: 10px;
+        }
+        /* style for img element inside header element */
+        header img{
+            margin-left: 5px;
+            margin-right: 10px;
+            width: 50px;
+            height: auto;
+           
+        }
+        /* style for nav element inside header element */
+        header nav{
+            margin-top: 15px;
+            gap: 60px;
+            display: flex;
+            
+        }
+        /* style for a element inside header element */
+        header nav a{
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        
+        /* style for section element  */
+        .s1{
+            background-color: chartreuse;
+            float: right;
+            margin-left: 25px;
+            width: 300px;
+            height: 250px;
+        }
+        .s2{
+            background-color:darkorange;
+            float: right;
+            margin-left: 20px;
+            width: 300px;
+            height: 250px;
+        }
+        .s3{
+            background-color: hotpink;
+            float:left;
+            width: 300px;
+            margin-right: 25px;
+            height: 250px;
+        }
+        .s4{
+            background-color:aquamarine;
+            float:left;
+            width: 300px;
+            height: 250px;
+        }
+        /* style for footer element  */
+        footer{
+           
+            margin-top: 300px;
+        }
+        /* style for p element inside footer element */
+        footer p{
+            text-align: center;
+        }
+        li{
+        	text-decoration-style:double;
+        	color:black;
+        	background-color:white;
+        	font-size:20px;
+        }
+        #w{
+        	color:red;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+        
+        <h1>Information </h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Ledger.html">Ledger</a>
+            
+            <a href="About.html">About us</a>
+        </nav>
+    </header>
+    <!--Section element-->
+    <section class="s1">
+        <article>
+            <h2>Ledger Section</h2>
+            <p align="justify">When we Click Ledger Option Then you can see Three Options Display Data , Display Marks and Display All Records</p>
+            <br><p>When you Click Display Data Button Your All Records will be Display .  It is also same for Display Marks and Display All . Display
+             All is Display the records in One table Student Data and Student Marks if there is no matching roll number in student data and studennt marks at that time our record will not display</p>
+        </article>
+    </section>
+    <section class="s2">
+        <article>
+            <h2>Delete Section</h2>
+                <article>
+                	<p align="justify">You can Enter a Roll Number and press Enter Button in our Keyboard</p> 
+                	<p align="justify">Your record will be Deleted. It is for data and as well as marks</p>            
+                </article>
+           <h2>Search Section</h2>
+           		<article>
+                	<p align="justify">You can Enter a Roll Number and press Enter Button in our Keyboard</p> 
+                	<p align="justify">Your record will be Display. It is for data and as well as marks</p>            
+                </article>
+           
+        </article>
+    </section>
+    <section class="s3">
+        <article>
+            <h2>Insertion Section</h2>
+            <p align="justify">First Insert Student data like Student Roll Number , Student Name , Student Date of Birth and Gender and Click the save button or Press Enter Button</p>
+            <br><p align="justify">Your data will be stored to the database and we can see this data using Search data Option or We can go to the Ledger Option and Click Display Data Button</p>
+            <br><p align="justify">It is same for Insert Marks</p>
+        </article>
+    </section>
+    <section class="s4">
+        <article>
+            <h2>Update Section</h2>
+            
+                
+                 <p align="justify">When you need to Update the data then Click Update data and put the data and Click the Update data button or Press the Enter Button</p><br>
+                  <p align="justify">Your data will be Updated you can see your data through Search Data or through Ledger Option and Display Data</p><br>
+                  <p align="justify">It is same for Update Marks fill the text boxes and click the Update data or press Enter Key Your Marks will be Updated</p>
+                
+            
+        </article>
+    </section>
+    
+    <!-- footer element -->
+    <footer>
+        <p>&copy;All Copyright Recieved 2024</p>
+    </footer>	
+    <p>
+    <h2 id="w">Warning..!</h2>
+    <br>
+    <ul>
+    <li>When we Insert Data at that time we can Insert Marks as well</li>
+    <li>When we delete data you can delete first marks then data this sequence is mendatory<br>Otherwise our record is not Deleting Sometimes You face error</li>
+    
+    </ul>
+    </p>
+
+</body>
+</html>

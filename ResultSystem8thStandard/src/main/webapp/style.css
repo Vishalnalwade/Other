@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body {
+            background: url(index.jpg) no-repeat;
+            background-size: cover;
+            background-position: center;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .head {
+            background-color: gold;
+        }
+
+        .head th h2 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            height: 30px;
+        }
+        #head{
+        border:2px solid white;
+        
+        }
+
+        table {
+            width: 100%;
+        }
+        td{
+        margin-top:10px;
+        
+        }
+        a{
+        margin-top:10px;
+        	border:2px solid black;
+        	color:white;
+        }
+        a:hover{color:red;}
